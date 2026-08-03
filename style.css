@@ -447,6 +447,14 @@ nav ul li a:hover {
 
     font-size:28px;
 
+    min-height:42px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:3px;
+
 }
 
 
@@ -1838,5 +1846,42 @@ footer p {
     }
 
 
+
+}
+/* =========================
+   TYPING CURSOR
+========================= */
+
+.cursor-blink{
+
+    color:cyan;
+
+    font-weight:bold;
+
+    animation:blink .8s infinite;
+
+}
+
+@keyframes blink{
+
+    0%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+
+}
+
+#typing{
+
+    min-width:280px;
+
+    display:inline-block;
 
 }
